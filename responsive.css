@@ -1,0 +1,76 @@
+@media only screen and (max-width: 375px) {
+  body {
+    width: 375px;
+    height: 949px;
+  }
+
+  .top-container {
+    margin: 0;
+    padding-left: 24px;
+    padding-top: 20px;
+    margin-bottom: 89px;
+  }
+
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .scarecrow-img {
+    width: 77%;
+    height: 100%;
+  }
+
+  .right-column-container {
+    padding-left: 24px;
+  }
+
+  .right-column-title {
+    margin-bottom: 8.6%;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+  }
+
+  .right-column-subtitle {
+    width: 100%;
+    margin-bottom: 19%;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+  }
+
+  .btn {
+    padding: 6.17%;
+    width: 62%;
+  }
+
+  .copyright {
+    position: absolute;
+    width: 226px;
+    height: 17px;
+    left: 75px;
+    top: 890px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+  }
+}
